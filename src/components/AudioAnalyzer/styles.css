@@ -1,0 +1,21 @@
+.ChartWrapper {
+  width: 100%;
+  height: 100vh;
+  background: #201F26;
+}
+
+.ChartGrid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ChartRow {
+  display: flex;
+  flex: 1;
+}
+
+#sciChart1, #sciChart2, #sciChart3 {
+  flex: 1;
+}
